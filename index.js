@@ -120,7 +120,7 @@ $(document).ready(function(){
                     id = (Math.floor(num_balls/2) + id) % num_balls;
                     timer = Date.now();
                 } else {
-                    console.log(Date.now() - timer, ball_pos[id], click_location);
+                    console.log("Movement Time: ", Date.now() - timer);
                     clicks_per_pair = 2;
 
                     // Avoid duplicate
@@ -140,7 +140,7 @@ $(document).ready(function(){
 
     // MAIN
     num_balls = 20;
-    d = 200;
-    w = 20;
+    d = 350;
+    w = 10;
     run(num_balls, d, w);
 });
