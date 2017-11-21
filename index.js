@@ -140,7 +140,7 @@ $(document).ready(function(){
 
     // MAIN
     num_balls = 20;
-    d = 350;
-    w = 10;
+    d = 200;
+    w = 20;
     run(num_balls, d, w);
 });
